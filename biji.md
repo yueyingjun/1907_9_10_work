@@ -120,7 +120,7 @@ arr.includes('e');
 // false
 
 ```
-## indexOf查找数组中的 "Apple" 元素：
+## indexOf查找数组中的 "b" 元素：
 ```
 var arr = ["a", "b", "c", "d"];
 var a = arr.indexOf("b");
