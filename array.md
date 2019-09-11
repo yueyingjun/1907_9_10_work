@@ -85,7 +85,7 @@ var arr = [1, 2, 3, 4, 5]
     //[6, 7, 2, 3, 4, 5]
 ```
 
-## Array.siArray 
+## Array.isArray 
 - 判断一个对象是不是数组，返回的是布尔值
 ```$xslt
 var num = 1
