@@ -1,0 +1,411 @@
+/*header*/
+header{
+    background: #f4f4f4;
+    width: 100%;
+    height: 36px;
+}
+.headerbody{
+    height: 36px;
+    margin: auto;
+}
+/*header左侧*/
+.headerleft{
+    float: left;
+    margin-left: 10px;
+    width: 210px;
+}
+.headerleft span,.headerleft ul{
+    line-height: 36px;
+    float: left;
+
+    margin-right: 8px;
+}
+.headerleft .icon1{
+    float: left;
+    width: 14px;
+    height: 14px;
+    background: url("https://pic.c-ctrip.com/platform/online/home/sprite2019527.png")no-repeat -8px -8px;
+    margin-top: 11px;
+}
+.headerleft .icon2{
+    float: left;
+    width: 8px;
+    height: 5px;
+    background: url("https://pic.c-ctrip.com/platform/online/home/sprite2019527.png")no-repeat -46px -58px;
+    margin-top: 16px;
+}
+
+
+
+/*header右侧*/
+.headerright{
+    width: auto;
+    float: right;
+    padding-top: 10px;
+}
+.headerright ul,.headerright span,.one{
+    float:left;
+}
+#nihao{
+    color:#0000ee;
+    border-right: none;
+}
+
+.zhuce:hover{
+    color: #0000ee;
+}
+.headerright span{
+    padding: 0 12px;
+    border-right:1px solid #9d9d9d;
+    color:#000;
+}
+.icon3{
+    width: 14px;height: 12px;
+    background: url("https://pic.c-ctrip.com/platform/online/home/sprite2019527.png")no-repeat -8px -66px;
+
+}
+
+#xiaoxi1{
+    border-right: none;
+    margin-left:12px ;
+    margin-top:4px;
+    padding: 0 0;
+}
+#xiaoxi2{
+
+    padding: 0 12px 0 2px;
+}
+
+.headerright .icon2{
+    float: right;
+    width: 8px;
+    height: 5px;
+    background: url("https://pic.c-ctrip.com/platform/online/home/sprite2019527.png")no-repeat -46px -58px;
+    margin-top: 6px;
+    padding: 0 0;
+    border-right: none;
+    margin-left:3px;
+}
+.icon4{
+    float: left;
+    width: 14px;
+    height: 14px;
+    background: url("https://pic.c-ctrip.com/platform/online/home/sprite2019527.png")no-repeat -98px -38px;
+    margin-top:3px;
+    margin-right: 3px;
+
+
+
+}
+#shanglv{
+    padding: 0 0px 0 6px;
+    border-right: none;
+}
+#shouji{
+    width: 10px;
+    height: 16px;
+    background: url("https://pic.c-ctrip.com/platform/online/home/sprite2019527.png")no-repeat -100px -67px;
+
+    padding: 0 0;
+    margin: 0 8px 0 16px
+
+}
+#weixin{
+    width: 18px;
+    height: 18px;
+    background: url("https://pic.c-ctrip.com/platform/online/home/sprite2019527.png")no-repeat -97px -99px;
+    padding: 0 0;
+    margin: 0 16px 0 8px;
+    border-right: none;
+
+}
+
+
+/*头部*/
+.toubu{
+    height: 80px;
+    margin: auto;
+}
+.logo{
+    width: 126px;
+    height: 43px;
+    background: url("https://pic.c-ctrip.com/common/c_logo2013.png")no-repeat;
+    background-size: 100% 100%;
+    margin: 14px 0 0 0;
+    float: left;
+}
+.sousuokuang{
+    float: left;
+    width: 424px;
+    height: 28px;
+    border:1px solid #8ebefc;
+    margin: 20px 40px 6px 20px;
+    border-radius:3px;
+    padding: 0;
+}
+.form-control{
+    height: 25px;
+    width: 382px;
+    border:none;
+
+    margin: 0;
+    padding: 0;
+
+}
+.sou{
+    float:left;
+}
+.btn-default{
+    float:right;
+    height: 28px;
+    width: 40px;
+    background: #a4cbff;
+    border:none;
+}
+.glyphicon{
+    margin: 0;
+    padding: 3px 15px;
+}
+.btn-default:hover{
+    background:#a4cbff;
+}
+.glyphicon-search{
+    height: 24px;
+    color:#fff;
+}
+.glyphicon-search:hover{
+    color:#fff;
+}
+.lianxifangshi{
+    width: 148px;
+    height: 52px;
+    margin-top:14px;
+    float: right;
+}
+.jingnei{
+    text-align: right;
+    float: right;
+
+}
+.jingnei span:nth-of-type(1){
+    margin-right:12px;
+
+}
+.jingnei .icon2{
+    float: right;
+    width: 8px;
+    height: 5px;
+    background: url("https://pic.c-ctrip.com/platform/online/home/sprite2019527.png")no-repeat -46px -58px;
+    margin-top: 0px;
+    padding: 0 0;
+    border-right: none;
+    margin-left:3px;
+    margin-right: 0px;
+}
+
+/*导航*/
+.nav{
+    width: 100%;
+    height: 40px;
+    background: #2577e3;
+    margin-top:-10px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+.navdaohang{
+    height: 40px;
+    margin: auto;
+    display: flex;
+    justify-content:space-around;
+
+}
+.navdaohang span{
+    color:white;
+    line-height: 40px;
+    border-left: 1px solid blue;
+    text-align: center;
+
+
+}
+.navdaohang div{
+   float: left;
+}
+.shuxiao{
+    padding-left: 20px;
+}
+#shouye{
+    border-left: none;
+}
+.navdaohang .icon2{
+    float: right;
+    width: 8px;
+    height: 5px;
+    background: url("https://pic.c-ctrip.com/platform/online/home/sprite2019527.png")no-repeat -46px -58px;
+    margin-top: 20px;
+    padding: 0 0;
+    border-right: none;
+    margin-left:3px;
+    background-color:#2577e3;
+    border-left: none;
+}
+
+
+
+/*境外直通车*/
+.zhitongche{
+    width: 100%;
+    height: 40px;
+    background: #fff;
+    margin-top:-10px; ;
+}
+.ztcdh{
+    height: 40px;
+    margin: auto;
+    display: flex;
+    justify-content:space-around;
+}
+.ztcdh span{
+    line-height: 40px;
+    background: none;
+}
+.j1{
+    background: none;
+}
+
+/*轮播*/
+.lunbotu{
+    width: 100%;
+    height: 340px;
+    background: url("https://dimg04.c-ctrip.com/images/zg07170000013qd2aCA36.jpg")no-repeat;
+    background-size: cover;
+}
+.tu{
+    height: 340px;
+    margin: auto;
+    padding: 20px 0 20px 20px;
+}
+.xxkjiudian{
+    height: 300px;
+    width: 490px;
+    background:#fff;
+    overflow: hidden;
+}
+.xxkjiudianleft{
+    float: left;
+    height: 100px;
+    width: 94px;
+}
+.xxkliebiao:nth-of-type(1){
+    width: 94px;
+    color: #2577e3;
+    background: white;
+    border-left: 10px solid #985f0d;
+
+
+
+}
+.xxkliebiao{
+    width: 94px;
+    height: 43px;
+    color: #ffffff;
+    background: #2577e3;
+    border-bottom: 1px dashed #fff;
+    font-size: 16px;
+    line-height: 43px;
+    text-align: center;
+    border-left: 10px solid #2577e3;
+
+}
+.xxkliebiao:hover{
+    color: #2577e3;
+    background: white;
+}
+
+.xxkjiudianright {
+    float: right;
+    width:350px;
+    height: 270px;
+    margin-top: 20px;
+    margin-right: 25px;
+}
+.xxkjiudianrighttop{
+    width: 100%;
+    height: 25px;
+    display: flex;
+    justify-content:space-around;
+}
+ .hxxk{
+    float: left;
+    font-size:14px;
+     color:#000;
+}
+.hxxk:nth-of-type(1){
+    color:#0066cc;
+}
+
+.hxxkzt{
+
+    color:#000;
+}
+.hxxkzt:hover{
+    color:#2577e3;
+    text-decoration: none;
+}
+
+
+/*热门*/
+.remenxxk{
+    height: 38px;
+    margin: auto;
+}
+.remenxxkgjz span{
+    color:#000;
+    margin-right: 30px;
+    float:left;
+    line-height: 38px;
+    font-size:16px;
+}
+.remenxxkgjz:nth-of-type(1) span{
+    color:#0066cc;
+}
+.remenxxkgjz span:hover{
+    color:#0066cc;
+    text-decoration: none;
+}
+.jdcs{
+    height: 380px;
+    margin: auto;
+    border: 1px solid #999999;
+    border-top: 2px solid #3983e5;
+    padding:5px 5px;
+}
+.fl{
+    width: 100%;
+    height: 40px;
+    padding-bottom: 20px;
+}
+.fl1 span{
+    font-size:12px;
+    color:#3983e5;
+    float: left;
+    border-radius: 3px;
+    background: #fff;
+    margin-right: 20px;
+}
+.fl1 span:hover{
+    background:#3983e5;
+    color: #fff;
+    text-decoration: none;
+}
+#jn{
+    color:#fff;
+    background:#0066cc;
+}
+
+
+
+
+
+
+
+
